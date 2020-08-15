@@ -1,0 +1,5 @@
+pasos para crear un archivo y subirlo a git: 
+ Primero...
+ Si ya tengo el codigo en mi equipo debo:
+ 1. Crear el repositorio sin archivo readme.me 
+ 2. 

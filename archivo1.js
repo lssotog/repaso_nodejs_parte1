@@ -12,7 +12,10 @@ fileSystem.appendFile('extracto.cvs', 'Hello content!', function (err) {
     console.log('Saved!');
 });
 
-
+fileSystem.writeFile("instructivo_nodeJS.txt","pasos para crear un archivo y subirlo a git: \n Primero...", (err) =>{
+    if (err) throw err;
+    console.log("saved file");
+})
 //FUNCTION CON ARROW FUNCTION
 // fileSystem.writeFile("extracto.csv", (err) =>{
 //     if (err){
